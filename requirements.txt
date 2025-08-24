@@ -1,4 +1,14 @@
-streamlit==1.26.0
+# Streamlit for the web app
+streamlit==1.30.0
+
+# Transformers for T5 model
 transformers==4.45.1
+
+# PyTorch (required by transformers)
 torch==2.5.0
-numpy
+
+# Numerical computations
+numpy==1.26.4
+
+# Pillow (image processing; compatible with Python 3.13)
+Pillow==10.1.0
