@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import streamlit as st
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
@@ -100,4 +100,4 @@ if st.button("Summarize"):
 
         st.subheader("📝 Summary")
         st.success(summary)
->>>>>>> bb28bdf0a52640545c74372b82e84434058abd6c
+
